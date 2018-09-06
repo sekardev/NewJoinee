@@ -1,0 +1,35 @@
+{
+    "development": {
+        "username": "root",
+        "password": null,        
+        "database": "example",
+        "host": "localhost",
+        "dialect": "sqlite",
+        "storage": "./data/Agile.sqlite",
+        "operatorsAliases": {
+           "$and": "Op.and",
+            "$or": "Op.or",
+            "$eq": "Op.eq",
+            "$gt": "Op.gt",
+            "$lt": "Op.lt",
+            "$lte": "Op.lte",
+            "$like": "Op.like"
+          }
+    },
+    "test": {
+        "username": "",
+        "password": null,
+        "database": "",
+        "host": "localhost",
+        "dialect": "sqlite",
+        "storage": "./data/Agile.sqlite"
+    },
+    "production": {
+        "username": "",
+        "password": null,
+        "database": "",
+        "host": "localhost",
+        "dialect": "sqlite",
+        "storage": "./data/Agile.sqlite"
+    }
+}
